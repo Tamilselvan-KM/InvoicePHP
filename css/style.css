@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #889ee7;
+}
+.hr {
+  width: 40%;
+  margin: 0 auto;
+  height: 2px !important;
+}
+.containerBg {
+  /* background: #889ee7; */
+  position: relative;
+}
+/* client page positioning property */
+#cilentsBtn {
+  position: fixed;
+  top: 15%;
+  right: 15%;
+}
+#cilentBtn {
+  position: fixed;
+  top: 15%;
+  right: 20%;
+}
+
+#clientTitle {
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  z-index: 10000;
+}
+.textBackground {
+  background: #e8e8e9;
+}
+.cardWidth {
+  width: 80%;
+}
+.divWidth {
+  width: 40%;
+}
+.tableWidth {
+  width: 65%;
+}
+.btnWidth {
+  width: 15%;
+}
+/* errors */
+.allError,
+.emailError,
+.passError {
+  /* background: #dc3545; */
+  color: #dc3545;
+  text-align: center;
+  padding: 5px;
+  margin: 5px auto;
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+/* .allError.active,
+.emailError.active,
+.passError.active {
+  display: block;
+} */
+@media screen and (max-width: 630px) {
+  .customRow {
+    flex-direction: column !important;
+  }
+  .divWidth {
+    width: 100% !important;
+  }
+  .btnWidth {
+    width: 40%;
+  }
+}
